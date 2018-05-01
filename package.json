@@ -1,0 +1,20 @@
+{
+  "name": "test_api",
+  "version": "1.0.0",
+  "description": "we will install express, express-graphql and we will create an initial dev server to run on our machine. We will create the server.js file and start the main schema.js file",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "Mahmoud Reda Shaban",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.18.0",
+    "express": "4.16.3",
+    "express-graphql": "0.6.12",
+    "graphql": "0.13.2",
+    "json-server": "0.12.2",
+    "nodemon": "1.17.3"
+  }
+}
